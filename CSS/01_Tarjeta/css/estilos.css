@@ -2,3 +2,15 @@ h1 {
 color: rgb(56, 119, 236);
 margin: 3;
 }
+
+p{
+
+color: green;
+
+}
+
+.mi-descripcion p {
+
+    color: red;
+    text-align: center;
+}
