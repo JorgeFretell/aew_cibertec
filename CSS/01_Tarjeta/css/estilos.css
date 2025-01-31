@@ -14,3 +14,32 @@ color: green;
     color: brown;
     text-align: center;
 }
+
+
+.contenedor-tarjeta {
+
+
+h1 {
+
+    color: orange;
+    text-align: center;
+}
+
+.foto-perfil {
+
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+text-align: center;
+}
+
+background-color: rgb(163, 217, 219);
+
+}
+
