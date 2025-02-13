@@ -1,0 +1,39 @@
+.contenedor_general{
+
+    background-color: rgb(230, 230, 230);
+    width: 1080px;
+    height: 1920px;
+    margin: auto;
+}
+
+.barra_menu{
+    background-color: #479956;
+    width: 1080px;
+    height: 80px;
+    display: flex;
+}
+
+.imagen_top{
+    background-color: #37B24D;
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+.texto_principal{
+    width: 400px;
+}
+
+.texto_principal>h1{
+    color: white;
+    text-align: center;
+}
+
+.texto_principal>p{
+    color: white;
+    text-align: justify;
+}
