@@ -37,3 +37,9 @@
     color: white;
     text-align: justify;
 }
+
+.footer {
+    background-color: black;
+    width: 1080px;
+    display: flex;
+}
