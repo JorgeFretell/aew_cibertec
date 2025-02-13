@@ -38,8 +38,36 @@
     text-align: justify;
 }
 
-.footer {
-    background-color: black;
+.contenedor-productos{
+    background-color: rgb(162, 162, 184);
     width: 1080px;
+    height: 1260px;
     display: flex;
+}
+
+
+
+.footer-productos {
+    background-color: rgb(109, 109, 109);
+    width: 1080px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;  
+    margin: auto; 
+
+}
+
+.Text_footer_redes {
+    bbackground-color: white;
+    display: flex;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.iconos_redes_footer{
+    bbackground-color: orangered;
+    display: flex;
+    margin-left: 10px;
 }
