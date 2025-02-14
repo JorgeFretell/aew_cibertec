@@ -40,6 +40,7 @@
     text-align: justify;
 }
 
+/* Contenedor donde estaran todos los productos*/
 .contenedor-productos{
     background-color: rgb(162, 162, 184);
     width: 1400px;
