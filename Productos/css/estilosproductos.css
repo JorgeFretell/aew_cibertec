@@ -59,32 +59,39 @@
 
 .lado{
 
-    flex: 1;
+    flex: 1; /* divide en 3 partes iguales */
     display: flex;
 }
 
 .izq{
-    background-color: blueviolet;
+    bbackground-color: blueviolet;
     display: flex;
     flex-direction: column ;
 }
 
 .texto_redessociales_footer{
-    background-color: #37B24D;
     display: flex;
+    margin-left: 20px;
 }
 
 .iconos_redes_footer{
-    background-color: orange;
     display: flex;
+    margin-left: 20px;
+    margin-top: -4%;
+
 
 }
 
 .cent{
-    background-color: aqua;
+    bbackground-color: aqua;
     justify-content: center;
 }
 
-.dere{
-    background-color: brown;
+.derechos_footer{/* Copyright 2025..... */
+
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
+
+
