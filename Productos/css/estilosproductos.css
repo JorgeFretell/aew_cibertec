@@ -3,7 +3,7 @@
     background-color: rgb(230, 230, 230);
     width: 1400px;
     height: 1920px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -50,7 +50,7 @@
 
 
 .footer-global {
-    background-color: white;
+    background-color:burlywood;
     width: 1400px;
     height: 80px;
     display: flex;
@@ -64,7 +64,6 @@
 }
 
 .izq{
-    bbackground-color: blueviolet;
     display: flex;
     flex-direction: column ;
 }
@@ -83,7 +82,6 @@
 }
 
 .cent{
-    bbackground-color: aqua;
     justify-content: center;
 }
 
@@ -94,4 +92,24 @@
     align-items: center; /* Centra verticalmente */
 }
 
+.dere{
 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.text_footer_direccion{
+
+    display: flex;
+    margin: auto 0;
+    margin-right: 162px;
+}
+
+.text_footer_direccion_all{
+
+    display: flex;
+    margin: auto o;
+    margin-top: -4%;
+    margin-right: 30px;
+}
