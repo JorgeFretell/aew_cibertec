@@ -1,7 +1,7 @@
 .contenedor_general{
 
     background-color: rgb(230, 230, 230);
-    width: 1080px;
+    width: 1400px;
     height: 1920px;
     margin: auto;
     display: flex;
@@ -10,14 +10,14 @@
 
 .barra_menu{
     background-color: #479956;
-    width: 1080px;
+    width: 1400px;
     height: 80px;
     display: flex;
 }
 
 .imagen_top{
     background-color: #37B24D;
-    width: 1080px;
+    width: 1400px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
 
 .contenedor-productos{
     background-color: rgb(162, 162, 184);
-    width: 1080px;
+    width: 1400px;
     height: 1260px;
     display: flex;
 }
@@ -51,7 +51,7 @@
 
 .footer-global {
     background-color: rgb(109, 109, 109);
-    width: 1080px;
+    width: 1400px;
     height: 80px;
     display: flex;
     margin: auto;
