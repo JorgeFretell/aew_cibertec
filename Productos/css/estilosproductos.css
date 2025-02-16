@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center; /* Alinea verticalmente los elementos */
     justify-content: space-between; /* Espacia los elementos a los extremos */
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .logo {
     height: 100%; /* Asegura que el logo ocupe toda la altura de la barra */
@@ -124,12 +124,25 @@ body {
     text-align:justify;
 }
 
-/* Contenedor donde estaran todos los productos*/
-.contenedor-productos{
-    background-color: rgb(245, 245, 245);
-    width: 1400px;
-    height: 1260px;
-    display: flex;
+/* Contenedor donde estarán todos los productos */
+.contenedor-productos {
+    background-color: rgb(245, 245, 245); /* Establece el color de fondo del contenedor */
+    width: 1400px; /* Define el ancho del contenedor */
+    height: 1260px; /* Define la altura del contenedor */
+    display: grid; /* Configura el contenedor como una cuadrícula */
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual tamaño */
+    grid-template-rows: repeat(2, 1fr); /* Crea 2 filas de igual tamaño */
+}
+
+/* Estilo para cada producto */
+.producto {
+    background-color: white; /* Establece el color de fondo de cada producto */
+    border: 1px solid #ccc; /* Añade un borde gris claro a cada producto */
+    padding: 20px; /* Añade un relleno interno de 20px alrededor del contenido del producto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor de cada producto */
+    text-align: center; /* Centra el texto dentro de cada producto */
+    width: 200px; /* Define el ancho de cada producto */
+    height: 400px; /* Define la altura de cada producto */
 }
 
 /* >>>>>FOOTER<<<< */
