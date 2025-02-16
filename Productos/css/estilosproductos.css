@@ -124,15 +124,21 @@ body {
 
 /* Contenedor donde estarán todos los productos */
 
-/* Contenedor donde estarán un video */
+/* Contenedor donde estará un video */
 .producto-video{
-    background-color: aqua;
+    bbackground-color: rgb(135, 255, 175);
     width: 1400px; /* Define el ancho del contenedor */
-    height: 300px; /* Define la altura del contenedor *
+    height: 300px; /* Define la altura del contenedor */
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     
 }
+
 .contenedor-productos {
-    background-color: rgb(245, 245, 245); /* Establece el color de fondo del contenedor */
+    background-color: rgb(158, 156, 156); /* Establece el color de fondo del contenedor */
     width: 1400px; /* Define el ancho del contenedor */
     height: 960px; /* Define la altura del contenedor */
     display: grid; /* Configura el contenedor como una cuadrícula */
