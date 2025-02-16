@@ -17,7 +17,6 @@ body {
 }
 
 /* ESTILOS PARA EL CONTENEDOR DE LA BARRA DE MENU */
-/* ESTILOS PARA EL CONTENEDOR DE LA BARRA DE MENU */
 .barra_menu {
     width: 1400px;
     height: 70px;
@@ -98,7 +97,6 @@ body {
 }
 
 .imagen_top{
-    bbackground-color: #37B24D;
     background-image:url(../img/imagen-principal_opac.jpg);
     width: 1400px;
     height: 500px;
@@ -125,12 +123,20 @@ body {
 }
 
 /* Contenedor donde estarán todos los productos */
+
+/* Contenedor donde estarán un video */
+.producto-video{
+    background-color: aqua;
+    width: 1400px; /* Define el ancho del contenedor */
+    height: 300px; /* Define la altura del contenedor *
+    
+}
 .contenedor-productos {
     background-color: rgb(245, 245, 245); /* Establece el color de fondo del contenedor */
     width: 1400px; /* Define el ancho del contenedor */
-    height: 1260px; /* Define la altura del contenedor */
+    height: 960px; /* Define la altura del contenedor */
     display: grid; /* Configura el contenedor como una cuadrícula */
-    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual tamaño */
+    grid-template-columns: repeat(3, 1fr); /* Crea 4 columnas de igual tamaño */
     grid-template-rows: repeat(2, 1fr); /* Crea 2 filas de igual tamaño */
 }
 
