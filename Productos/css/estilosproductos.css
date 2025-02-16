@@ -1,29 +1,31 @@
-.lato-thin {
-    font-family: "Lato", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
 
-.contenedor_general{
-
+/* Estilo para el contenedor general */
+.contenedor_general {
     background-color: rgb(255, 255, 255);
     width: 1400px;
     height: 1920px;
-    margin: 0 auto;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
     display: flex;
     flex-direction: column;
+    padding-top: 0; /* Asegura que no haya espacio superior dentro del contenedor */
 }
 
+/* Asegura que el body no tenga margen ni padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILOS PARA EL CONTENEDOR DE LA BARRA DE MENU */
+/* ESTILOS PARA EL CONTENEDOR DE LA BARRA DE MENU */
 .barra_menu {
-    bbackground-color: #9bff7d;
     width: 1400px;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center; /* Alinea verticalmente los elementos */
     justify-content: space-between; /* Espacia los elementos a los extremos */
-    margin-bottom: 5px;
+    margin: 10px;
 }
-
 .logo {
     height: 100%; /* Asegura que el logo ocupe toda la altura de la barra */
 }
@@ -32,6 +34,7 @@
 .menu {
     display: flex;
     gap: 20px; /* Espacio entre los elementos del menú */
+    margin-right: 10px;
 }
 
 /* Estilo para los elementos del menú */
@@ -44,14 +47,14 @@
 
 /* Efecto de subrayado al pasar el cursor */
 .menu a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: rgb(114, 114, 114);
-    bottom: -2px;
-    left: 0;
-    transition: width 0.1s; /* Transición suave */
+    content: ''; /* Crea un pseudo-elemento vacío */
+    position: absolute; /* Posiciona el pseudo-elemento de manera absoluta */
+    width: 0; /* Ancho inicial del pseudo-elemento (invisible) */
+    height: 2px; /* Altura del pseudo-elemento (grosor de la línea) */
+    background-color: rgb(114, 114, 114); /* Color de fondo del pseudo-elemento (color de la línea) */
+    bottom: -2px; /* Posiciona el pseudo-elemento 2px debajo del enlace */
+    left: 0; /* Alinea el pseudo-elemento al borde izquierdo del enlace */
+    transition: width 0.1s; /* Transición suave del ancho del pseudo-elemento */
 }
 
 .menu a:hover::after {
@@ -90,12 +93,12 @@
 
 /* Cambiar fondo y color del texto al pasar el cursor */
 .dropdown-content a:hover {
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     color: white;
 }
 
 .imagen_top{
-    background-color: #37B24D;
+    bbackground-color: #37B24D;
     background-image:url(../img/imagen-principal_opac.jpg);
     width: 1400px;
     height: 500px;
@@ -121,7 +124,6 @@
     text-align:justify;
 }
 
-
 /* Contenedor donde estaran todos los productos*/
 .contenedor-productos{
     background-color: rgb(245, 245, 245);
@@ -130,6 +132,7 @@
     display: flex;
 }
 
+/* >>>>>FOOTER<<<< */
 
 .footer-global {
     background-color:rgb(255, 255, 255);
@@ -160,8 +163,6 @@
     display: flex;
     margin-left: 20px;
     margin-top: -2%;
-
-
 }
 
 .cent{
