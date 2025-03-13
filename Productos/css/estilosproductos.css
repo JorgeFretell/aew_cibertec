@@ -139,7 +139,11 @@ body {
     background-color: rgb(158, 156, 156); /* Establece el color de fondo del contenedor */
     width: 1400px; /* Define el ancho del contenedor */
     height: 960px; /* Define la altura del contenedor */
+    display: flex;
 }
+
+
+
 
 
 
